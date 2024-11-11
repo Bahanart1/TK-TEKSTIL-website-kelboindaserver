@@ -13,9 +13,9 @@ function Index() {
                     </div>
 
                     {/* navbar bölümü*/}
-                    <div className="flex flex-col md:flex-row items-center jus text-white space-y-2 md:space-y-0 md:space-x-8">
+                    <div className="flex flex-col md:flex-row items-center jus text-white space-y-2 md:space-y-0 md:space-x-8 md:font-serif">
                         <Link href="/">
-                            <p className="navItem cursor-pointer">Home</p>
+                            <p className="navItem cursor-pointer md:text-neutral-300">Home</p>
                         </Link>
                         <Link href="/howWeProduce">
                             <p className="navItem cursor-pointer">How We Produce</p>
@@ -25,6 +25,9 @@ function Index() {
                         </Link>
                         <Link href="/about">
                             <p className="navItem cursor-pointer">About Us</p>
+                        </Link>
+                        <Link href="/office">
+                            <p className="navItem cursor-pointer">Office View</p>
                         </Link>
                     </div>
                 </div>
